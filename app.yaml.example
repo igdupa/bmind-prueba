@@ -1,0 +1,20 @@
+runtime: php
+env: flex
+
+runtime_config:
+  document_root: public
+
+env_variables:
+  ## Put production environment variables here.
+  APP_DEBUG: false
+  APP_KEY: xxxxxxx
+  APP_STORAGE: /tmp
+  VIEW_COMPILED_PATH: /tmp
+  CACHE_DRIVER: database
+  SESSION_DRIVER: database
+  ## Set these environment variables according to your CloudSQL configuration.
+  DB_CONNECTION: mysql
+  DB_HOST: 0.0.0.0
+  DB_DATABASE: laravel
+  DB_USERNAME: root
+  DB_PASSWORD: xxxxxxx

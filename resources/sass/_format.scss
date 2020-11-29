@@ -1,0 +1,28 @@
+body {
+    background-image: url("/images/background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: #0055db;
+}
+
+hr {
+    color: #81e0f2;
+}
+
+.nav-logo {
+    > img {
+        width: 280px;
+
+        @media screen and (max-width: 600px) {
+            width: 210px;
+        }
+    }
+}
